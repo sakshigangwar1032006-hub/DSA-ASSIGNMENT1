@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int matrix[4][4] = {
+        {10, 21, 15, 18},
+        {17, 38, 46, 50},
+        {65, 10, 11, 22},
+        {13, 14, 15, 66}
+    };
+
+    for (int row = 0; row < 4; row++) {
+        for (int col = 0; col < 4; col++) {
+            printf("Element at matrix[%d][%d] = %d\n", row, col, matrix[row][col]);
+        }
+    }
+
+    return 0;
+}
